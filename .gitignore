@@ -1,6 +1,8 @@
 # compiled output
 /dist
 /node_modules
+/axe-results/*
+!/axe-results/.gitkeep
 
 # Logs
 logs
