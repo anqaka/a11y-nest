@@ -6,8 +6,7 @@ import { AuditObj } from './../types/audit-obj.type';
 @Injectable()
 export class AxeService {
   axeConfig: CreateAxeDto = { pages: [] };
-  axeResults: Promise<any> | AuditObj | string =
-    "Run some tests, we'll get the results here";
+  axeResults: Promise<any> | AuditObj;
   create(createAxeDto: CreateAxeDto) {
     this.axeConfig = createAxeDto;
     this.testWithAxe(this.axeConfig);
@@ -15,9 +14,7 @@ export class AxeService {
   }
 
   testWithAxe(config) {
-    console.log('testing', config);
-
-    const results: Promise<any> | AuditObj | string = testWithAxe(config);
+    const results: Promise<any> | AuditObj = testWithAxe(config);
     this.axeResults = results;
   }
 
