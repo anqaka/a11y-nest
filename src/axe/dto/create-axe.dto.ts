@@ -1,4 +1,4 @@
-import { AnyObject } from 'src/interfaces/any-object.interface';
+import { MetadataObj } from './../../types/metadata-obj.type';
 export class CreateAxeDto {
   pages: string[] | [];
   fileName?: string;
@@ -12,8 +12,8 @@ export class CreateAxeDto {
     };
     checks?: any[];
     rules?: any[];
-    standards?: AnyObject;
-    locale?: AnyObject;
+    standards?: MetadataObj;
+    locale?: MetadataObj;
     axeVersion?: string;
     disableOtherRules?: boolean;
     noHtml?: boolean;
