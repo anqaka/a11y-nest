@@ -1347,7 +1347,7 @@ axe-core@^4.2.3:
 
 axe-node@anqaka/axe-node#master:
   version "1.0.0"
-  resolved "https://codeload.github.com/anqaka/axe-node/tar.gz/ea5186d01be8c357ec2a117959d9b1d5601d781a"
+  resolved "https://codeload.github.com/anqaka/axe-node/tar.gz/bcf4cedc462b94409edd66b84446bfbe2f91a17f"
   dependencies:
     "@axe-core/puppeteer" "^4.2.2"
     json-2-csv "^3.14.1"
