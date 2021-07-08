@@ -862,9 +862,9 @@
   integrity sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==
 
 "@types/node@*":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.0.0.tgz#067a6c49dc7a5c2412a505628e26902ae967bf6f"
-  integrity sha512-TmCW5HoZ2o2/z2EYi109jLqIaPIi9y/lc2LmDCWzuCi35bcaQ+OtUh6nwBiFK7SOu25FAU5+YKdqFZUwtqGSdg==
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.0.1.tgz#70cedfda26af7a2ca073fdcc9beb2fff4aa693f8"
+  integrity sha512-hBOx4SUlEPKwRi6PrXuTGw1z6lz0fjsibcWCM378YxsSu/6+C30L6CR49zIBKHiwNWCYIcOLjg4OHKZaFeLAug==
 
 "@types/node@^14.14.36":
   version "14.17.4"
@@ -1347,7 +1347,7 @@ axe-core@^4.2.3:
 
 axe-node@anqaka/axe-node#master:
   version "1.0.0"
-  resolved "https://codeload.github.com/anqaka/axe-node/tar.gz/bcf4cedc462b94409edd66b84446bfbe2f91a17f"
+  resolved "https://codeload.github.com/anqaka/axe-node/tar.gz/681914f8c669d3ba0bf7740e2497f8b8221e1be7"
   dependencies:
     "@axe-core/puppeteer" "^4.2.2"
     json-2-csv "^3.14.1"
