@@ -6,16 +6,20 @@ import { AuditObj } from './../types/audit-obj.type';
 @Injectable()
 export class AxeService {
   axeConfig: CreateAxeDto = { pages: [] };
-  axeResults: Promise<any> | AuditObj;
+  axeResults: Promise<AuditObj>;
+
   create(createAxeDto: CreateAxeDto) {
     this.axeConfig = createAxeDto;
-    this.testWithAxe(this.axeConfig);
-    return this.axeConfig;
+
+    return this.test(this.axeConfig);
   }
 
-  testWithAxe(config) {
-    const results: Promise<any> | AuditObj = testWithAxe(config);
+  async test(config) {
+    const results: Promise<AuditObj> = await testWithAxe(config);
+
     this.axeResults = results;
+
+    return results;
   }
 
   findAxeResult() {

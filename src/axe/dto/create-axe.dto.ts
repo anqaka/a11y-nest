@@ -1,5 +1,6 @@
 import { MetadataObj } from './../../types/metadata-obj.type';
 export class CreateAxeDto {
+  _id?: string;
   pages: string[] | [];
   fileName?: string;
   resultDir?: string;
