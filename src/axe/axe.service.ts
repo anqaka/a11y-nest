@@ -1,4 +1,4 @@
-import testWithAxe from 'axe-node';
+import { testWithAxe } from 'axe-node';
 import { Injectable } from '@nestjs/common';
 import { CreateAxeDto } from './dto/create-axe.dto';
 import { AuditObj } from './../types/audit-obj.type';
